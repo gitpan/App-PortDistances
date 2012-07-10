@@ -1,0 +1,52 @@
+{
+   "abstract" : "App::PortDistances",
+   "author" : [
+      "Pedro Silva <pedros@berkeley.edu>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.3901, CPAN::Meta::Converter version 2.120630",
+   "license" : [
+      "open_source"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "App-PortDistances",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.39"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Cache::File" : "0",
+            "Carp" : "0",
+            "Cwd" : "0",
+            "Digest::MD5" : "0",
+            "File::ShareDir" : "1.00",
+            "File::Spec" : "0",
+            "FindBin" : "0",
+            "GIS::Distance" : "0",
+            "Graph" : "0",
+            "JSON" : "0",
+            "MooseX::Declare" : "0",
+            "MooseX::Getopt" : "0",
+            "MooseX::Types" : "0",
+            "MooseX::Types::Moose" : "0",
+            "String::Approx" : "0",
+            "Test::More" : "0",
+            "constant" : "0",
+            "lib" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://www.gnu.org/licenses/old-licenses/gpl-1.0.txt"
+      ]
+   },
+   "version" : "v0.0.1"
+}

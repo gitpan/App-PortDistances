@@ -1,0 +1,51 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.66.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 f7c66ace10501939b4e8706e2e053fdb812d1b21 Build.PL
+SHA1 80ea8fedd9a1cf68a3a6441015e2ee07b6903cb3 LICENSE
+SHA1 70dea6f17843381779cf59f951c3c1f4390eb89c MANIFEST
+SHA1 085db5fd6bef6877381fc2e3b58c820ea5cd9efb META.json
+SHA1 faee932e66f3054af22060589d8032548a499a0c META.yml
+SHA1 29b99c8ba52da74259d1a9b851e53063a9ff2ed7 Makefile.PL
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 README
+SHA1 0c9ec5186eb30311bd8bed00a334001e4aa10a53 data/db.json
+SHA1 274ef5acecab97210c5fbe30bffbb2c03de16d1f lib/App/PortDistances.pm
+SHA1 94d07deaee89935afb1b0e4731af3a7175c45dc5 lib/App/PortDistances/Cache.pm
+SHA1 bc66a493df6bf421685c0b822a9efbb9f66fab85 lib/App/PortDistances/DB.pm
+SHA1 55f85ee483f2c71a6e416e0f134774b32177bb4c lib/App/PortDistances/DB/Port.pm
+SHA1 de9eba1f088faa20080db5205294443c1ae616aa lib/App/PortDistances/Getopt.pm
+SHA1 8351a1f512d9c13bef7783ac96afa060a301de81 lib/App/PortDistances/Graph.pm
+SHA1 cdf1de88b7f138a1b06b7556fa4e990a39608ad4 lib/App/PortDistances/Types.pm
+SHA1 be5735d65e15b139efd171cdbdee74c87c84c33b script/gpd
+SHA1 c2bc0e447ba9e21a86c09cc3090a656044da6ea6 t/DB/00.load.t
+SHA1 41b217740d6d1f5d1af8f1d7f820574a2da4bdb6 t/DB/10.constructor.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.19 (GNU/Linux)
+
+iQIcBAEBAgAGBQJP/EeKAAoJEIQwGS3UEcOszXcQAIkIp8ZQtwK3BfQEPPsKiuFF
+0NQz4y+BX2vVhOsuwk+3uZxkCgbvwxVx57MzU68YwuMluqKxrXJCtxroiLPUGsRr
+Sk19PVkSe1EKPw+uOvj8scfxMH39d8ZFiXiI6YFlkcqUiIJ09vCn0rhvk1bv6bQF
+/stwE7AiQUJpx4CqFXJg3eatjxmjOpXMXfO9s6PaIOMG3/0G2hZEny3pVOkKQjVW
+tJ0Yc0Y2JiY8u6nT1OOyOd1hdOFCzMTew1NxfJ6+sE+WQtCtyKBG7x7W0DzR/KLq
+rz9zspFM9XOpLw0QjCh0EBUKvz9BfyoH+hcZZLWH5U+Ah4JwSe+thfc37/WNtul3
+DCW7LV6wjP8fRqS3ZO4yFK/oQ3cQOlhY5zUhhUbf7UTkLisEuGoD/Xfq42vQB4i3
+/XoVWkVydKuzo3f5wPSnrr+0HBTqnwh5buh9g65rRR+op8poGzzumW1e1H2E0Eft
+1HUW7ATgiLkDWtnkfHhRE0U4I9RytRG5eXoeC4LOoRb1JDWLSsY1NTOp3Jnblv2Z
+YLkYN3fYxPv/8uDZuon+x+URLDS4KpnDu7gCwEiHwKqBNdG5GaAdiyb7V69d0I7L
+ElOIVVzG0Z5g1suRHoIDuv5T8cnVxZmjNZu+atc+W0n8md47ngPnIjHxhEmjhm/e
+FHIVHvpSZgm2uOjOmYTg
+=OHdU
+-----END PGP SIGNATURE-----
